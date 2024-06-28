@@ -7,10 +7,12 @@ body {
     height: 100vh;
     margin: 0;
     flex-direction: column;
+    padding: 10px; /* 모바일에서 좌우 여백 추가 */
 }
 
 .container {
     text-align: center;
+    width: 100%; /* 컨테이너를 화면 너비에 맞춤 */
 }
 
 h1 {
@@ -34,6 +36,7 @@ h2 {
     border: 2px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* 슬롯 머신이 컨테이너를 벗어나지 않도록 */
 }
 
 .fixed-slot {
@@ -69,8 +72,8 @@ h2 {
 }
 
 .round-button {
-    width: 170px; /* 원형 버튼 크기 조정 (현재 크기의 1.5배) */
-    height: 170px; /* 원형 버튼 크기 조정 (현재 크기의 1.5배) */
+    width: 180px; /* 원형 버튼 크기 조정 (현재 크기의 1.5배) */
+    height: 180px; /* 원형 버튼 크기 조정 (현재 크기의 1.5배) */
     border-radius: 50%;
     border: none;
     font-size: 2rem; /* 폰트 크기도 키움 */
