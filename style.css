@@ -29,7 +29,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    margin: 20px 0 40px 0; /* 슬롯 머신 아래에 여백 추가 */
     background: #fff;
     border: 2px solid #ddd;
     border-radius: 10px;
@@ -44,8 +44,8 @@ h2 {
 
 .slot {
     width: 150px;
-    height: 120px; /* 세로 길이를 2배로 늘림 */
-    line-height: 120px; /* 세로 길이에 맞춤 */
+    height: 100px; /* 세로 길이 조정 */
+    line-height: 100px; /* 세로 길이에 맞춤 */
     margin: 0 10px;
     background: #fafafa;
     border: 1px solid #ddd;
@@ -69,11 +69,11 @@ h2 {
 }
 
 .round-button {
-    width: 100px; /* 원형 버튼 크기를 절반으로 줄임 */
-    height: 100px; /* 원형 버튼 크기를 절반으로 줄임 */
+    width: 180px; /* 원형 버튼 크기 조정 (현재 크기의 1.5배) */
+    height: 180px; /* 원형 버튼 크기 조정 (현재 크기의 1.5배) */
     border-radius: 50%;
     border: none;
-    font-size: 1.5rem;
+    font-size: 2rem; /* 폰트 크기도 키움 */
     font-weight: bold;
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
