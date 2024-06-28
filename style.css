@@ -69,8 +69,8 @@ h2 {
 }
 
 .round-button {
-    width: 180px; /* 원형 버튼 크기 조정 (현재 크기의 1.5배) */
-    height: 180px; /* 원형 버튼 크기 조정 (현재 크기의 1.5배) */
+    width: 170px; /* 원형 버튼 크기 조정 (현재 크기의 1.5배) */
+    height: 170px; /* 원형 버튼 크기 조정 (현재 크기의 1.5배) */
     border-radius: 50%;
     border: none;
     font-size: 2rem; /* 폰트 크기도 키움 */
