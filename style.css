@@ -11,18 +11,27 @@ body {
 
 .container {
     text-align: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
 }
 
 h1 {
     color: #fff;
-    font-size: 2.6rem;
+    font-size: 2rem;
     margin-bottom: 10px;
 }
 
 h2 {
     color: #fff;
-    font-size: 2.0rem;
+    font-size: 1.5rem;
     margin-bottom: 30px;
+}
+
+.fixed-slot {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 .slot-machine {
@@ -36,21 +45,15 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.fixed-slot {
-    font-size: 4rem;
-    color: #fff;
-    margin-bottom: 20px;
-}
-
 .slot {
-    width: 150px;
-    height: 120px;
-    line-height: 120px;
-    margin: 0 10px;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 5px;
     background: #fafafa;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     color: #333;
     text-align: center;
@@ -69,11 +72,11 @@ h2 {
 }
 
 .round-button {
-    width: 8cm;
-    height: 8cm;
+    width: 7cm;
+    height: 7cm;
     border-radius: 50%;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
@@ -97,4 +100,24 @@ h2 {
 .again-disabled {
     background: #ccc;
     color: #fff;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .fixed-slot {
+        font-size: 2rem;
+    }
+
+    .round-button {
+        width: 5cm;
+        height: 5cm;
+        font-size: 1rem;
+    }
 }
